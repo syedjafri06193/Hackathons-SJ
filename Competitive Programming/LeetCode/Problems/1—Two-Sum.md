@@ -1,5 +1,6 @@
 Hashmap Approach [JAVA]
 
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> seen = new HashMap<>();
@@ -13,3 +14,5 @@ class Solution {
         return new int[]{};
     }
 }
+```
+
